@@ -1376,3 +1376,7 @@ div[class^=jumpToPresentBar] {
     }
 
 }
+
+[class^=channelAppLauncher_] {
+    display: none
+}
