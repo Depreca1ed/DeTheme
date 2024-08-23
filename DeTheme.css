@@ -1380,3 +1380,13 @@ div[class^=jumpToPresentBar] {
 [class^=channelAppLauncher_] {
     display: none
 }
+
+.container_a6d69a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+    width: 100%;
+    background: #000000;
+}
