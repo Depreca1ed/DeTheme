@@ -1209,23 +1209,6 @@
     background: var(--background-secondary)
 }
 
-.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb {
-    background: url('https://raw.githubusercontent.com/Depreca1ed/DeTheme/main/assets/ElysiaWhite.png') no-repeat center !important;
-    background-size: cover !important;
-    transition: 0.25s ease;
-}
-
-.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb:hover {
-    background: url('https://raw.githubusercontent.com/Depreca1ed/DeTheme/main/assets/ElysiaColor.png') no-repeat center !important;
-    background-size: cover !important;
-    transition: 0.25s ease;
-
-}
-
-.wrapper_f90abb[data-list-item-id="guildsnav___home"] .childWrapper_f90abb svg {
-    display: none;
-}
-
 :is(main, section)[class^=chatContent]>form,
 form>div[class^=submitContainer] {
     /* align chatbox */
