@@ -920,11 +920,11 @@
     --background-modifier-hover: hsl(var(--primary-500-hsl)/0.3);
     --background-modifier-selected: hsl(var(--primary-500-hsl)/0.6);
     --background-nested-floating: #000000;
-    --background-primary: #000000;
-    --background-secondary: #080808;
-    --background-secondary-alt: #101010;
+    --background-primary: #00000070;
+    --background-secondary: #08080870;
+    --background-secondary-alt: #10101070;
     --background-tertiary: #121212;
-    --bg-backdrop: #FFFFFF;
+    --bg-backdrop: #FFFFFF70;
     --bg-base-primary: var(--primary-600);
     --bg-base-secondary: var(--primary-630);
     --bg-base-tertiary: var(--primary-660);
@@ -998,7 +998,7 @@
     --channel-icon: #AAAAAA;
     --channel-text-area-placeholder: #AAAAAA;
     --channels-default: #888888;
-    --channeltextarea-background: #151515;
+    --channeltextarea-background: #15151500;
     --chat-background: var(--primary-600);
     --chat-border: var(--primary-700);
     --chat-input-container-background: var(--primary-600);
@@ -1364,6 +1364,23 @@ div[class^=jumpToPresentBar] {
     display: none
 }
 
+.bg_d4b6c5 {
+    background: url(https://storage.sekai.best/sekai-jp-assets/character/member/res018_no025_rip/card_after_training.png);
+    background-size: contain;
+    position: absolute;
+    align-self: auto;
+}
+
+.wrapper_fea3ef {
+    overflow: hidden;
+    display: flex;
+    width: 72px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    background-color: #00000090
+}
+
 .container_a6d69a {
     align-items: center;
     display: flex;
@@ -1372,4 +1389,8 @@ div[class^=jumpToPresentBar] {
     position: relative;
     width: 100%;
     background: #000000;
+}
+
+[class^=container_a1531c]{
+    background-color: var(--channeltextarea-background);
 }
